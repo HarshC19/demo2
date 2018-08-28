@@ -11,7 +11,7 @@ public class OperationsOn {
 	// open unsorted keyword file
 	//counting the no. of lines in unsorted keywords file
 	public void openfile() throws IOException {
-		//reading the unsorted keywords file 
+		//reading the unsorted keywords files
 		
 		readerUnsortKeyword = new FileReader("/home/enigr_cros/java Assignments/csx-351-hw3-HarshC19-master/HW3-unsorted-keywords.txt");
 		bufferUnsortKeyword = new BufferedReader(readerUnsortKeyword);
